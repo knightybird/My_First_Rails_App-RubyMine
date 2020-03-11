@@ -45,7 +45,6 @@ GEM
     activerecord (6.0.2.1)
       activemodel (= 6.0.2.1)
       activesupport (= 6.0.2.1)
-    activerecord-sqlserver-adapter (2.3.8)
     activestorage (6.0.2.1)
       actionpack (= 6.0.2.1)
       activejob (= 6.0.2.1)
@@ -160,8 +159,6 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    tiny_tds (2.0.0-x64-mingw32)
-      mini_portile2 (~> 2.0)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
@@ -193,7 +190,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  activerecord-sqlserver-adapter
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
@@ -203,7 +199,6 @@ DEPENDENCIES
   rails (~> 6.0.2, >= 6.0.2.1)
   sass-rails (>= 6)
   selenium-webdriver
-  tiny_tds
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)

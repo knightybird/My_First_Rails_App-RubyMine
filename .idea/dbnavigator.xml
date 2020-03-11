@@ -23,28 +23,10 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="c46149cb-2eb2-40ec-873d-777c15a955cf">
-        <schema name="INFORMATION_SCHEMA" object-types="table, view, procedure, function" />
-        <schema name="db_accessadmin" object-types="table, view, procedure, function" />
-        <schema name="dbo" object-types="table, view, procedure, function" />
-        <schema name="guest" object-types="table, view, procedure, function" />
-        <schema name="sys" object-types="table, view, procedure, function" />
-      </connection>
-    </loaded-nodes>
-  </component>
-  <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="c46149cb-2eb2-40ec-873d-777c15a955cf">
-      <console name="@DESKTOP-KNIGHTY" type="STANDARD" schema="" session="Main" />
-      <console name="Connection" type="STANDARD" schema="" session="Main" />
-      <console name="Microsoft SQL Server - master@DESKTOP-KNIGHTY" type="STANDARD" schema="INFORMATION_SCHEMA" session="Main" />
-    </connection>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
-  </component>
-  <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="c46149cb-2eb2-40ec-873d-777c15a955cf" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -68,88 +50,7 @@
     <recently-used-interfaces />
   </component>
   <component name="DBNavigator.Project.Settings">
-    <connections>
-      <connection id="c46149cb-2eb2-40ec-873d-777c15a955cf" active="true">
-        <database>
-          <name value="Microsoft SQL Server - master@DESKTOP-KNIGHTY" />
-          <description value="SQL Server" />
-          <database-type value="GENERIC" />
-          <config-type value="CUSTOM" />
-          <database-version value="15.0" />
-          <driver-source value="EXTERNAL" />
-          <driver-library value="C:\Users\KnightyBird\.RubyMine2019.2\config\jdbc-drivers\SQL Server\7.4.1\mssql-jdbc-7.4.1.jre8.jar" />
-          <driver value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
-          <url value="jdbc:sqlserver://DESKTOP-KNIGHTY\SQLEXPRESS;database=master" />
-          <type value="USER_PASSWORD" />
-          <user value="root_user" />
-          <deprecated-pwd value="cm9vdA==" />
-        </database>
-        <properties>
-          <auto-commit value="false" />
-        </properties>
-        <ssh-settings>
-          <active value="false" />
-          <proxy-host value="" />
-          <proxy-port value="22" />
-          <proxy-user value="" />
-          <deprecated-proxy-pwd value="" />
-          <auth-type value="PASSWORD" />
-          <key-file value="" />
-          <key-passphrase value="" />
-        </ssh-settings>
-        <ssl-settings>
-          <active value="false" />
-          <certificate-authority-file value="" />
-          <client-certificate-file value="" />
-          <client-key-file value="" />
-        </ssl-settings>
-        <details>
-          <charset value="UTF-8" />
-          <session-management value="true" />
-          <ddl-file-binding value="true" />
-          <database-logging value="false" />
-          <connect-automatically value="true" />
-          <restore-workspace value="true" />
-          <restore-workspace-deep value="true" />
-          <environment-type value="development" />
-          <idle-time-to-disconnect value="30" />
-          <idle-time-to-disconnect-pool value="5" />
-          <credential-expiry-time value="10" />
-          <max-connection-pool-size value="7" />
-          <alternative-statement-delimiter value="" />
-        </details>
-        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
-          <object-type-filter use-master-settings="true">
-            <object-type name="SCHEMA" enabled="true" />
-            <object-type name="USER" enabled="true" />
-            <object-type name="ROLE" enabled="true" />
-            <object-type name="PRIVILEGE" enabled="true" />
-            <object-type name="CHARSET" enabled="true" />
-            <object-type name="TABLE" enabled="true" />
-            <object-type name="VIEW" enabled="true" />
-            <object-type name="MATERIALIZED_VIEW" enabled="true" />
-            <object-type name="NESTED_TABLE" enabled="true" />
-            <object-type name="COLUMN" enabled="true" />
-            <object-type name="INDEX" enabled="true" />
-            <object-type name="CONSTRAINT" enabled="true" />
-            <object-type name="DATASET_TRIGGER" enabled="true" />
-            <object-type name="DATABASE_TRIGGER" enabled="true" />
-            <object-type name="SYNONYM" enabled="true" />
-            <object-type name="SEQUENCE" enabled="true" />
-            <object-type name="PROCEDURE" enabled="true" />
-            <object-type name="FUNCTION" enabled="true" />
-            <object-type name="PACKAGE" enabled="true" />
-            <object-type name="TYPE" enabled="true" />
-            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
-            <object-type name="ARGUMENT" enabled="true" />
-            <object-type name="DIMENSION" enabled="true" />
-            <object-type name="CLUSTER" enabled="true" />
-            <object-type name="DBLINK" enabled="true" />
-          </object-type-filter>
-          <object-name-filters />
-        </object-filters>
-      </connection>
-    </connections>
+    <connections />
     <browser-settings>
       <general>
         <display-mode value="TABBED" />
@@ -466,7 +367,9 @@
         <prompt-execution value="false" />
       </statement-execution>
       <script-execution>
-        <command-line-interfaces />
+        <command-line-interfaces>
+          <value id="50fd31d3-87f4-444f-905e-83828f99a798" name="MySQL client" executable-path="C:/Program Files/MySQL/MySQL Workbench 8.0 CE/mysql.exe" database-type="MYSQL" />
+        </command-line-interfaces>
         <execution-timeout value="300" />
       </script-execution>
       <method-execution>
